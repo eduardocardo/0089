@@ -25,13 +25,21 @@ public class AgendaTelefonica
     {
         agenda.put(name,number);
     }
-    
+
     /**
      * Metodo que devuelve un numero de la agenda en funcion del nombre que introduzcas
-     * como parametro
+     * como parametro.Si no existe ese nombre devuelve null
      */
     public String lookupNumber(String name)
     {
         return agenda.get(name);
+    }
+
+    /**
+     * Print all keys
+     */
+    public void printAllNames()
+    {
+        System.out.println(agenda.keySet());
     }
 }
