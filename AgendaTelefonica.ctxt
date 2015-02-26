@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=AgendaTelefonica()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ AgendaTelefonica\r\n
+comment1.params=name\ number
+comment1.target=void\ enterNumber(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Metodo\ que\ permite\ a\u00F1adir\ numeros\ de\ telefono\ a\ la\ agenda\ con\ un\ nombre\ como\ clave\r\n
+comment2.params=name
+comment2.target=java.lang.String\ lookupNumber(java.lang.String)
+comment2.text=\r\n\ Metodo\ que\ devuelve\ un\ numero\ de\ la\ agenda\ en\ funcion\ del\ nombre\ que\ introduzcas\r\n\ como\ parametro\r\n
+numComments=3
